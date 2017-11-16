@@ -1,0 +1,35 @@
+// DovesRestored extension gamedata file
+// 20171109a
+
+"Games"
+{
+	"tf"
+	{
+		"Signatures"
+		{
+			"vtable for CTFGameRules"
+			{
+				"library" "server"
+				"linux"   "@_ZTV12CTFGameRules"
+			//	"windows" ""
+			//	"mac"     ""
+			}
+			"CEntityBird::SpawnRandomBirds"
+			{
+				"library" "server"
+				"linux"   "@_ZN11CEntityBird16SpawnRandomBirdsEv"
+			//	"windows" ""
+			//	"mac"     ""
+			}
+		}
+		"Offsets"
+		{
+			"CTFGameRules::SetupOnRoundStart"
+			{
+				"linux"   "189"
+				"windows" "187"
+			//	"mac"     ""
+			}
+		}
+	}
+}
